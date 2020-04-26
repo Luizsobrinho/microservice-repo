@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    username: luiz
+    password: 32741681
+    url: jdbc:mysql://localhost:3306/transportador?useTimezone=true&serverTimezone=UTC
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    generate-ddl: true
